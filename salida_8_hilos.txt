@@ -1,0 +1,23 @@
+Iniciando lectura secuencial del archivo: Data 04c2.csv...
+Lectura completada. Muestras totales: 30000
+Parámetros: Tamaño de Ventana (Nw) = 200, Stride = 100
+Número total de ventanas a procesar: 299
+
+Iniciando cómputo paralelo con OpenMP...
+Cómputo paralelo finalizado.
+
+--- Resumen y Verificación ---
+Archivo procesado: Data 04c2.csv
+Total de ventanas procesadas: 299 (esperadas: 299)
+Tamaño de ventana (Nw): 200 muestras
+Stride: 100 muestras
+
+--- Desempeño (OpenMP) ---
+Tiempo de cómputo paralelo (wall clock): 0.000193 segundos
+
+--- Métricas de la Ventana 0 (para verificación) ---
+  Ejes:         [     ax   ,     ay   ,     az   ,     gx   ,     gy   ,     gz   ]
+  Media (mu):   [  0.86230, -0.43279,  0.13376,  3.36609,  2.36115,  2.62848 ]
+  Sigma (std):  [  0.17288,  0.14751,  0.10525, 23.11294, 15.68249, 18.04548 ]
+  RMS:          [  0.87946,  0.45724,  0.17021, 23.35677, 15.85924, 18.23591 ]
+  Energía ||a||: 202.29805

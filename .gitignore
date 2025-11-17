@@ -1,0 +1,29 @@
+# Archivos de compilación y ejecutables
+build/
+bin/
+out/
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# Archivos temporales
+*.tmp
+*~
+*#
+
+# Archivos y carpetas del IDE
+.vscode/
+.idea/
+*.cbp
+*.depend
+*.layout
+
+# Archivos generados por sistemas de compilación
+**/cache/
+**/generated/
+
+# Archivos de configuración del sistema o del usuario
+.DS_Store
+Thumbs.db
