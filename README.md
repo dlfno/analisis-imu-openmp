@@ -30,7 +30,7 @@ Este proyecto incluye un `Makefile` que simplifica la compilación.
 1.  **Clona el repositorio:**
     ```bash
     git clone https://github.com/dlfno/analisis-imu-openmp
-    cd <tu-repo>
+    cd <analisis-imu-openmp>
     ```
 
 2.  **Compila el proyecto:**
